@@ -1,0 +1,217 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+}
+
+.headerBar {
+  border-bottom: 1px solid #ccc;
+  align-items: center;
+  display: flex;
+  height: 10vh;
+}
+
+.toggleButton {
+  justify-content: center;
+  display: flex;
+  font-size: larger;
+  margin: 30px;
+}
+
+.title {
+  flex: 9;
+  justify-content: center;
+  display: block;
+}
+
+.title-part {
+  justify-content: center;
+  display: flex;
+}
+
+.subtitle-part {
+  justify-content: center;
+  display: flex;
+  color: grey;
+}
+
+.mainparts {
+  min-height: 90vh;
+  display: flex;
+}
+
+.maintext {
+  flex: 8;
+}
+
+.hidden {
+  flex: 2;
+}
+
+.sidebar {
+  flex: 2;
+  border-right: 1px solid #ccc;
+  min-height: 90vh;
+  
+}
+
+.sidebar-header {
+  display: flex;
+  border-bottom: 2px solid #ccc;
+}
+
+.sidebar-title {
+  flex: 6;
+  display: flex;
+}
+
+.new-note {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.new-note:hover {
+  background: #185089;
+  color: white;
+}
+
+.sidebar-notes {
+  flex: 1;
+}
+
+.sidebar-note {
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+}
+
+.sidebar-note.active,
+.sidebar-note.active small {
+  background: rgb(2, 59, 88);
+  color: white;
+}
+
+.sidebar-note:hover {
+  background: #185089;
+  color: white;
+}
+
+.sidebar-date {
+  color: grey;
+}
+
+.textarea {
+  min-height: 90vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: grey;
+  font-size: xx-large;
+  font-family: 'Helvetica', sans-serif;
+}
+
+.editnotearea {
+  display: block;
+}
+
+.editor-header {
+  display: flex;
+}
+
+.editor-title {
+  margin: 10px;
+  flex: 10;
+}
+
+#editor-input-title {
+  border: none;
+  font-size: 20px;
+  padding: 5px;
+  outline: none;
+}
+
+#date-select {
+  border: none;
+}
+
+.note-date {
+  color: grey;
+}
+
+.go-save {
+  flex: 1;
+  justify-content: center;
+  display: flex;
+}
+
+.go-save:hover {
+  background: #185089;
+  color: white;
+}
+
+.delete-note {
+  flex: 1;
+  justify-content: center;
+  display: flex;
+}
+
+.delete-note:hover {
+  background: #185089;
+  color: white;
+}
+
+.editor {
+  flex: 1;
+  border: s;
+}
+
+.savednotearea {
+  display: block;
+}
+
+.saved-header {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+}
+
+.saved-title {
+  margin: 10px;
+  flex: 10;
+}
+
+.saved-date {
+  color: grey;
+}
+
+.go-edit {
+  flex: 1;
+  justify-content: center;
+  display: flex;
+}
+
+.go-edit:hover {
+  background: #185089;
+  color: white;
+}
