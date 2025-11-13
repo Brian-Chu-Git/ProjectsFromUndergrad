@@ -1,0 +1,92 @@
+#billingDiv {
+  padding-bottom: 5rem;
+  font-size: 2rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    background-color: #638889;
+    border-radius: 2rem;
+    padding: 2rem;
+    border: 2px solid black;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+
+  .payment {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+  }
+
+  .pay-button {
+    justify-content: center;
+    display: flex;
+    padding: 10px 20px;
+    width: 8rem;
+    height: 2.5rem;
+  }
+  
+  input {
+    width: calc(75%);
+    padding: 10px;
+    box-sizing: border-box;
+    height: 40px;
+  }
+
+  .text-box{
+    margin-left: calc(10%);
+    display: grid;
+    margin-bottom: 2rem;
+  }
+
+  .billing-input {
+    background-color: #EBD9B4 !important;
+    color: black;
+  }
+
+  .row-text{
+    justify-content: center;
+    display:flex;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .month-sec{
+    width: calc(75%);
+  }
+
+  .timeselect{
+    margin-right: 20px;
+    height: 40px;
+    width: 40%;
+  }
+
+  .split-select{
+    flex: 2;
+  }
+
+  .split-text{
+    flex: 1;
+    margin-right: calc(20%);
+  }
+
+  .select-text{
+    margin-left: calc(10%);
+    display: flex;
+  }
+
+  .pay-button {
+    background-color: #9DBC98;
+    border-radius: 2rem;
+    border: 2px solid black;
+  }
+
+  
