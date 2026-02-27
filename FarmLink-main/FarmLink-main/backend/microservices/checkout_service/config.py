@@ -1,3 +1,0 @@
-SQLALCHEMY_TRACK_MODIFICATIONS = False
-SQLALCHEMY_DATABASE_URI = "postgresql://zryfitivpulhcu:1d62494064b967f3a71601df36d593e46ce48c213013dbc2c104c0949bf4107b@ec2-34-226-28-242.compute-1.amazonaws.com:5432/d64fclf2nnra0p"
-DEBUG = True
